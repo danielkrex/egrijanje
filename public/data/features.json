@@ -1,0 +1,22 @@
+{
+    "features":[
+      {
+        "icon": "assets/img/feature/1.png",
+        "title": "Unique Materials",     
+        "content": "Sed iaculis purus ac orci dapibus pellentesque. Sed volutpat, elit consectetur"
+      },
+      {
+        "icon": "assets/img/feature/2.png",
+        "title": "Affordable Price",     
+        "content": "Sed iaculis purus ac orci dapibus pellentesque. Sed volutpat, elit consectetur"
+      },
+      {
+        "icon": "assets/img/feature/3.png",
+        "title": "Quality Maintenance",     
+        "content": "Sed iaculis purus ac orci dapibus pellentesque. Sed volutpat, elit consectetur"
+      }
+      
+             
+    ]
+  }
+  

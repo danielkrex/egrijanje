@@ -1,0 +1,68 @@
+{
+    "projects":[
+      {
+        "img": "assets/img/project/grid/1.jpg",
+        "title": "Roof Installation",             
+        "cat": "Rain Guard"             
+      },
+      {
+        "img": "assets/img/project/grid/2.jpg",
+        "title": "Roof Innovation",             
+        "cat": "Strom Shield"             
+      },
+      {
+        "img": "assets/img/project/grid/3.jpg",
+        "title": "Roof Inspection",             
+        "cat": "Metal Armor"             
+      },
+      {
+        "img": "assets/img/project/grid/4.jpg",
+        "title": "Roof Revamp",             
+        "cat": "Tile Guard"             
+      },
+      {
+        "img": "assets/img/project/grid/5.jpg",
+        "title": "Roof Repair",             
+        "cat": "Roof Armor"             
+      },
+      {
+        "img": "assets/img/project/grid/6.jpg",
+        "title": "Roof Construction",             
+        "cat": "Construction"             
+      },
+      {
+        "img": "assets/img/project/grid/7.jpg",
+        "title": "Roof Replacement",             
+        "cat": "Production"             
+      },
+      {
+        "img": "assets/img/project/grid/8.jpg",
+        "title": "Roof Revamp",             
+        "cat": "Tile Guard"             
+      },
+      {
+        "img": "assets/img/project/grid/9.jpg",
+        "title": "Roof Repair",             
+        "cat": "Roof Armor"             
+      },
+      {
+        "img": "assets/img/project/grid/10.jpg",
+        "title": "Roof Construction",             
+        "cat": "Construction"             
+      },
+      {
+        "img": "assets/img/project/grid/11.jpg",
+        "title": "Roof Replacement",             
+        "cat": "Production"             
+      },
+      {
+        "img": "assets/img/project/grid/12.jpg",
+        "title": "Roof Replacement",             
+        "cat": "Production"             
+      }
+     
+      
+    
+    ]
+  }
+  

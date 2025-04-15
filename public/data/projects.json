@@ -1,0 +1,27 @@
+{
+    "projects":[
+      {
+        "img": "assets/img/project/2-1.jpg",
+        "title": "Roof Installation",             
+        "cat": "Simple Roofing"             
+      },
+      {
+        "img": "assets/img/project/2-2.jpg",
+        "title": "Roof Repair",             
+        "cat": "Preparation Project"             
+      },
+      {
+        "img": "assets/img/project/2-3.jpg",
+        "title": "Roof Maintenance",             
+        "cat": "Leak Detection"             
+      },
+      {
+        "img": "assets/img/project/2-4.jpg",
+        "title": "Roof Installation",             
+        "cat": "Felt Roofing"             
+      }
+      
+    
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "slider":[
+      {
+        "bg_img": "assets/img/slider/slide-3.png",
+        "sub_title": "Smart Solutions",     
+        "title": "Elevate Your Home Solid Protection",     
+        "content": "Vestibulum rhoncus nisl ac gravida porta. Mauris eu sapien lacus. Etiam molestie justo neque, in convallis massa tempus in.",
+        "btn_text": "Learn More"     
+      },
+      {
+        "bg_img": "assets/img/slider/slide-4.jpg",
+        "sub_title": "Since 1995",     
+        "title": "Professional Criteria for Roofing Solutions",     
+        "content": "Vestibulum rhoncus nisl ac gravida porta. Mauris eu sapien lacus. Etiam molestie justo neque, in convallis massa tempus in.",
+        "btn_text": "Learn More"     
+      }
+            
+    ]
+  }
+  

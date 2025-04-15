@@ -1,0 +1,38 @@
+{
+  "blogs":[
+    {
+      "id": "1",
+      "img":"assets/img/blog/2-1.jpg",
+      "cat":"Installation",      
+      "title":"What Are All The Different Roof Tiles?",    
+      "dated":"April 30 2024",    
+      "content":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,"    
+    },
+    {
+      "id": "2",
+      "img":"assets/img/blog/2-2.jpg",
+      "cat":"Repairing",      
+      "title":"How to start a metal fabrication business",    
+      "dated":"April 15 2024",    
+      "content":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,"    
+    },
+    {
+      "id": "3",
+      "img":"assets/img/blog/2-3.jpg",
+      "cat":"Renovation",      
+      "title":"A Complete Guide To The Slate Roofs",    
+      "dated":"April 8 2024",    
+      "content":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,"    
+    },
+    {
+      "id": "4",
+      "img":"assets/img/blog/2-4.jpg",
+      "cat":"Industry",      
+      "title":"The Benefits of Buying Roofing Online",    
+      "dated":"March 28 2024",    
+      "content":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,"    
+    }
+       
+       
+  ]
+}

@@ -1,0 +1,88 @@
+/* Counter # 01 */
+
+#counter-1{
+    
+    .single-counter-box {    
+        margin-bottom: 50px;
+        text-align: center;
+        @media #{$xs} {            
+            text-align: center;
+        }
+        h6 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            margin: 15px 0;
+    
+            @media #{$xs} {            
+                font-size: 16px;
+            }
+        }
+        
+    }
+       
+    .single-counter-box p.counter-number {
+        display: inline-block;
+        font-size: 65px;
+        font-weight: 500;
+        line-height: 1;
+        color: #fff;
+        margin: 0;
+        
+        @media #{$lg} {
+            font-size: 60px;
+        }
+        @media #{$md} {
+            font-size: 55px;
+        }
+        @media #{$xs} {
+            font-size: 55px;
+        }
+        
+    }
+
+    .single-counter-box span {
+        color: #FE574F;
+        font-size: 30px;
+        margin-left: 10px;
+        position: relative;
+        top: -30px;
+    }
+    
+}
+
+.counter-section {
+    width: 70%;
+    margin-top: -100px;
+    z-index: 9;
+    position: relative;
+    float: right;
+    @media #{$md}{
+        width: 80%;
+    }
+    @media #{$xs}{
+        display: none;
+    }
+}
+
+/* Fun Fact Section  */
+
+.funfact-section{
+    
+    .single-counter-item h6 {
+        color: #212531;
+        font-weight: 500;
+    }
+    .single-counter-item h1 {
+        color: #212531;
+        font-size: 60px;
+        @media #{$xs}{
+            font-size: 50px;
+        }
+    }
+    .counter-content{
+        position: relative;
+        bottom: 0;
+    }
+}
+

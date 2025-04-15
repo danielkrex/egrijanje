@@ -1,0 +1,33 @@
+{
+    "testimonials":[
+        {
+            "id":"1",             
+            "content":"The magic formula that successful businesses have discovered is to treat customers", 
+            "reviewer_img":"assets/img/testimonial/1.jpg",             
+            "reviewer_name":"Albert Krish",             
+            "reviewer_designation":"Social Activist"             
+        },
+        {
+            "id":"2",             
+            "content":"The magic formula that successful businesses have discovered is to treat customers", 
+            "reviewer_img":"assets/img/testimonial/2.jpg",             
+            "reviewer_name":"Bill Lorris",             
+            "reviewer_designation":"Business Man"             
+        },
+        {
+            "id":"3",             
+            "content":"The magic formula that successful businesses have discovered is to treat customers", 
+            "reviewer_img":"assets/img/testimonial/3.jpg",             
+            "reviewer_name":"Josh Batlar",             
+            "reviewer_designation":"Factory Foreman"             
+        },
+        {
+            "id":"4",             
+            "content":"The magic formula that successful businesses have discovered is to treat customers", 
+            "reviewer_img":"assets/img/testimonial/4.jpg",             
+            "reviewer_name":"Joe Root",             
+            "reviewer_designation":"Supervisor"             
+        }
+        
+    ]
+}

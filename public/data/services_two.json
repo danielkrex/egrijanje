@@ -1,0 +1,23 @@
+{
+    "services":[
+      {
+        "img": "assets/img/service/2-1.jpg",
+        "icon": "assets/img/service/1-1.png",
+        "title": "Felt Roofing",             
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."             
+      },
+      {
+        "img": "assets/img/service/2-2.jpg",
+        "icon": "assets/img/service/1-2.png",
+        "title": "Roof Restoration",             
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."             
+      },
+      {
+        "img": "assets/img/service/2-3.jpg",
+        "icon": "assets/img/service/1-3.png",
+        "title": "Roof Repairing",             
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."             
+      }
+    ]
+  }
+  
