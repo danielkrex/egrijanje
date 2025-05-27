@@ -10,13 +10,13 @@ const currentPageTitle = computed(() => {
       currentPath = "About Us";
       break;           
       case "services":
-      currentPath = "Our Services";
+      currentPath = "Naše usluge";
       break;           
       case "team":
-      currentPath = "Our Team";
+      currentPath = "Naš tim";
       break;           
       case "price":
-      currentPath = "Pricing Plan";
+      currentPath = "Cijena";
       break;           
       case "faq":
       currentPath = "FAQ";
@@ -53,12 +53,18 @@ const currentPageTitle = computed(() => {
       break;           
       case "blog":
       currentPath = "Blogs";
+      break;       
+      case "postupak-ugradnje":
+      currentPath = "Postupak ugradnje";
       break;           
       case "blog-details":
       currentPath = "Blog Details";
       break;           
       case "contact":
-      currentPath = "Contact";
+      currentPath = "Kontakt";
+      break;           
+      case "product":
+      currentPath = "Zašto odabrati eGrijanje 12V?";
       break;           
       default:
       currentPath = route.name;
@@ -71,7 +77,7 @@ const currentPageTitle = computed(() => {
 
 <template>
 
-<div class="breadcrumb-area bread-bg">  
+<div class="breadcrumb-area bread-bg bread-bg-product" :class="{'bread-bg-product-2': route.name === 'contact'}">  
     <div class="overlay-5"></div>  
     <div class="container">
         <div class="row justify-content-center">
@@ -88,3 +94,20 @@ const currentPageTitle = computed(() => {
 </div>
 
 </template>
+
+<style scoped>
+
+.bread-bg-product {
+    background-image: url('/assets/img/egrijanje/egrijanje-work-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bread-bg-product-2 {
+    background-image: url('/assets/img/egrijanje/egrijanje-work-3.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+</style>

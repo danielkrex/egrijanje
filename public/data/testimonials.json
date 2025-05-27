@@ -1,33 +1,32 @@
 {
-    "testimonials":[
+    "testimonials": [
         {
-            "id":"1",             
-            "content":"The magic formula that successful businesses have discovered is to treat customers", 
-            "reviewer_img":"assets/img/testimonial/1.jpg",             
-            "reviewer_name":"Albert Krish",             
-            "reviewer_designation":"Social Activist"             
+            "id": "1",
+            "content": "Dečki su jako dobro napravili posao. Grijanje radi super. Jako je udobno za razliku od drugih oblika grijanja kao što su radijatori i klime. Vrlo smo zadovoljni.",
+            "reviewer_img": "assets/img/testimonial/1.jpg",
+            "reviewer_name": "Požgaj",
+            "reviewer_designation": "Zagreb"
         },
         {
-            "id":"2",             
-            "content":"The magic formula that successful businesses have discovered is to treat customers", 
-            "reviewer_img":"assets/img/testimonial/2.jpg",             
-            "reviewer_name":"Bill Lorris",             
-            "reviewer_designation":"Business Man"             
+            "id": "2",
+            "content": "Prezadovoljan sam uslugom postavljanja i rada podnog grijanja. Iako imamo opciju centralnog grijanja, u prostoru gdje je postavljeno podno grijanje cijelu zimu nismo palili centralno, jer je podno grijanje bilo dovoljno. Brzo se postigne željena temperatura i cijeli se prostor brzo zagrije. Uz malu djecu, podno grijanje je idealan odabir - toplina se postigne, a svi se bezbrižno mogu igrati na podu.",
+            "reviewer_img": "assets/img/testimonial/2.jpg",
+            "reviewer_name": "Nikola",
+            "reviewer_designation": "Sveta Nedelja"
         },
         {
-            "id":"3",             
-            "content":"The magic formula that successful businesses have discovered is to treat customers", 
-            "reviewer_img":"assets/img/testimonial/3.jpg",             
-            "reviewer_name":"Josh Batlar",             
-            "reviewer_designation":"Factory Foreman"             
+            "id": "3",
+            "content": "Iznenaden sam brzinom usluge i kvalitetom rada. Nakon promisljanja kako bi hladan pod u kupaonici postao topli i udoban, odlučio sam se za podno grijanje. Vrlo zadovoljan uslugom.",
+            "reviewer_img": "assets/img/testimonial/3.jpg",
+            "reviewer_name": "Daniel",
+            "reviewer_designation": "Zagreb"
         },
         {
-            "id":"4",             
-            "content":"The magic formula that successful businesses have discovered is to treat customers", 
-            "reviewer_img":"assets/img/testimonial/4.jpg",             
-            "reviewer_name":"Joe Root",             
-            "reviewer_designation":"Supervisor"             
+            "id": "4",
+            "content": "Podno grijanje smo ugradili u cijelu kuću prije 5 godina i mogu reći da je to jedna od boljih odluka koje smo donijeli. Sustav radi besprijekorno – bez ikakvog održavanja i bez brige. Toplina je ravnomjerna i ugodna u svim prostorijama. Usluga je bila profesionalna i sve je izvedeno brzo i kvalitetno. Preporučujem svakome tko želi dugoročno i bezbrižno rješenje za grijanje doma!",
+            "reviewer_img": "assets/img/testimonial/4.jpg",
+            "reviewer_name": "Matija",
+            "reviewer_designation": "Horvati"
         }
-        
     ]
 }

@@ -12,7 +12,7 @@
     }
 
     .service-icon {
-        background: $theme_color;
+        background: $primary_color;
         width: 90px;
         height: 90px;
         display: inline-flex;
@@ -56,6 +56,11 @@
             background: $primary_color;
         }
     }
+}
+
+.single-service-wrap.service-four{
+    min-height: 300px;
+    height: 85%;
 }
 
 .read_more_link {

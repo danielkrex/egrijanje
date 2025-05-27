@@ -62,14 +62,9 @@ onMounted(() => {
                         <!-- Main Menu  -->
                         <div class="main-menu d-none d-lg-block">
                             <ul>
-                                <li class="active"><a class="navlink" href="#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><router-link class="active" :to="{name:'home'}">Home - One</router-link></li>                                        
-                                        <li><router-link :to="{name:'home2'}">Home - Two</router-link></li>                                                                                
-                                        <li><router-link :to="{name:'home3'}">Home - Three</router-link></li>                                                                                                                        
-                                    </ul>
+                                <li class="active"><a class="navlink" href="#">Naslovna</a>
                                 </li>
-                                <li><a class="navlink" href="#">Pages</a>
+                                <li><a class="navlink" href="#">Zašto eGrijanje?</a>
                                     <ul class="sub-menu">
                                         <li><router-link :to="{name:'about'}">About Us</router-link></li>
                                         <li><router-link :to="{name:'services'}">Our Services</router-link></li>
@@ -78,13 +73,13 @@ onMounted(() => {
                                         <li><router-link :to="{name:'faq'}">Faq</router-link></li>                                        
                                     </ul>
                                 </li> 
-                                <li><a class="navlink" href="#">Services</a>
+                                <li><a class="navlink" href="#">Opis proizvoda</a>
                                     <ul class="sub-menu">
                                         <li><router-link :to="{name:'services'}">Services</router-link></li>
                                         <li><router-link :to="{name:'service-details'}">Service Details</router-link></li>                                        
                                     </ul>
                                 </li>                               
-                                <li><a class="navlink" href="#">Projects</a>
+                                <li><a class="navlink" href="#">Postupak ugradnje</a>
                                     <ul class="sub-menu">
                                         <li><router-link :to="{name:'project-standard'}">Standard</router-link></li>
                                         <li><router-link :to="{name:'project-metro'}">Metro Fullwidth</router-link></li>
@@ -106,29 +101,29 @@ onMounted(() => {
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a class="navlink" href="#">Blog</a>
+                                <li><a class="navlink" href="#">Galerija</a>
                                     <ul class="sub-menu">
                                         <li><router-link :to="{name:'blog'}">Blogs</router-link></li>                                                
                                         <li><router-link :to="{name:'blog-details'}">Blog Details</router-link></li>                                                                                        
                                     </ul>
                                 </li>
                                                                 
-                                <li><router-link :to="{name:'contact'}">Contact</router-link></li>                                                
+                                <li><router-link :to="{name:'contact'}">Kontakt</router-link></li>                                                
                             </ul>
                         </div>
 
                         <div class="header-right">
 
                             <!-- Search Button  -->
-                            <div class="search-trigger">
+                            <!-- <div class="search-trigger">
                                 <i class="fal fa-search"></i>
-                            </div>
+                            </div> -->
                             <div class="contact-number d-none">
                                 <div class="icon"><i class="las la-phone-volume"></i></div>
                                 <div class="title"><h4>1 800 458 56 97</h4></div>
                             </div>
                             <!-- Header Button -->
-                            <router-link :to="{name:'contact'}" class="theme-btn d-none d-lg-inline-block">Get a Quote</router-link>
+                            <router-link :to="{name:'contact'}" class="theme-btn d-none d-lg-inline-block">Zatraži ponudu</router-link>
 
                         </div>
                         <!-- Mobile Menu -->

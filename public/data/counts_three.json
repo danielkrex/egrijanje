@@ -2,18 +2,18 @@
   "counts": [
     {
       "id": "1",
-      "number": 310,
-      "title": "Project Completed"             
+      "number": 100,
+      "title": "Projekata"             
     },
     {
       "id": "2",
-      "number": 156,
-      "title": "Client Satisfaction"             
+      "number": 300,
+      "title": "Sistema grijanja"             
     },
     {
       "id": "3",
-      "number": 75,
-      "title": "Award Win"             
+      "number": 5000,
+      "title": "m<sup>2</sup> grijanja"             
     }
         
   ]

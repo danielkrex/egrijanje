@@ -65,8 +65,8 @@ $(".testimonial-carousel").owlCarousel({
         <div class="row">
             <div class="col-lg-12 text-center ">
                 <div class="section-title">
-                    <h6>Testimonial</h6>
-                    <h2>Happy Client Says <br>About Us</h2>
+                    <h6>iskustvo s klijentima</h6>
+                    <h2>Što klijenti govore o nama</h2>
                 </div>
             </div>
         </div>
@@ -76,16 +76,16 @@ $(".testimonial-carousel").owlCarousel({
                 <div class="testimonial-carousel owl-carousel">
 
                     <div class="single-testimonial-item"
-                    v-for="t in testimonials.slice(0,3)" :key="t.id"
+                    v-for="t in testimonials.slice(0,4)" :key="t.id"
                     >
                         <div class="testimonial-icon">
                             <i class="las la-quote-left"></i>
                         </div>
                         <p>"{{ t.content }}"</p>
                         <div class="author-wrap">
-                            <div class="author-thumb">
+                            <!-- <div class="author-thumb">
                                 <img :src="t.reviewer_img" alt="">
-                            </div>
+                            </div> -->
                             <div class="author-desc">
                                 <h5>{{t.reviewer_name}}</h5><span>{{ t.reviewer_designation }}</span>
                             </div>

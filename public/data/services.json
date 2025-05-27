@@ -19,19 +19,7 @@
         "icon": "assets/img/service/1-4.png",
         "title": "Roof Renovation",             
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."             
-      },
-      {
-        "icon": "assets/img/service/1-5.png",
-        "title": "Roofing Maintenance",             
-        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."             
-      },
-      {
-        "icon": "assets/img/service/1-6.png",
-        "title": "Roof Replacement",             
-        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."             
-      }
-           
+      }           
     ]
-
   }
   

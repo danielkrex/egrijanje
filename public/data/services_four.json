@@ -1,0 +1,24 @@
+{
+  "services":[
+    {
+      "icon": "assets/img/service/4-1.png",
+      "title": "100% Učinkovito",             
+      "content": "Za 1 kW električne energije koju platite, dobivate 1 kW topline."             
+    },
+    {
+      "icon": "assets/img/service/4-2.png",
+      "title": "Niski početni trošak",             
+      "content": "Niži troškovi kupnje i ugradnje uz minimalno održavanje."             
+    },
+    {
+      "icon": "assets/img/service/4-3.png",
+      "title": "Jednostavna instalacija",             
+      "content": "Lako i bez brige – mi se pobrinemo za cijelu ugradnju podnog grijanja."             
+    },
+    {
+      "icon": "assets/img/service/4-4.png",
+      "title": "Ekološki prihvatljivo",             
+      "content": "Električno grijanje ima manji ugljični otisak u usporedbi s alternativama."             
+    }           
+  ]
+}

@@ -7,7 +7,7 @@ import { onMounted, ref} from 'vue'
 const blogs = ref([])
 
 onMounted(async () => {
-    const { data: fetchedBlogs } = await axios.get('/data/blog.json')
+    const { data: fetchedBlogs } = await axios.get('/data/steps.json')
     blogs.value = fetchedBlogs.blogs
 })
 
@@ -20,42 +20,65 @@ onMounted(async () => {
     <HeaderThree/>
     <BreadCrumb/>
 
-    <div class="blog-section gray-bg section-padding">
+    <div class="blog-section bg-light section-padding">
         <div class="container">            
             <div class="row">                
-                <div class="col-xl-4 col-lg-4 col-md-6"
-                v-for="blog in blogs.slice(0,9)" :key="blog.id"
+                <div class="col-xl-4 col-lg-4 col-md-6 mt-4"
+                v-for="blog in blogs.slice(0,11)" :key="blog.id"
                 >
-                    <router-link :to="{name:'blog-details'}" class="single-blog-item wow fadeInUp" data-wow-delay=".2s">
+                    <div class="single-blog-item wow fadeInUp" data-wow-delay=".2s">
                         <div class="blog-img">
                             <img :src="blog.img" alt="">
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <span>{{ blog.cat }}</span>
+                                <span>{{ `${blog.id}. ` }} {{ blog.cat }}</span>
                             </div>
-                            <div class="blog-title">
+                            <!-- <div class="blog-title">
                                 <h4>{{ blog.title }}</h4>
-                            </div>
+                            </div> -->
                             <div class="blog-info">
-                                <span>{{ blog.dated }}</span>
-                                <span>1 comment</span>
+                                <span>{{ blog.title }}</span>
                             </div>
                         </div>
-                    </router-link>
+                    </div>
                 </div>
                                                
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <ul class="pagination d-flex justify-content-center">                                        
                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
                     <li class="page-item" aria-current="page"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>                                        
                     <li class="page-item"><a class="page-link" href="#"><i class="las la-angle-right"></i></a></li>                                        
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
     
 </template>
+
+<style scoped>
+
+.single-blog-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-content {
+    flex: 1;
+}
+
+.blog-img {
+    background-color: #dee7f0;
+}
+
+.blog-img img {
+    padding: 40px 0;
+}
+
+
+
+</style>
 

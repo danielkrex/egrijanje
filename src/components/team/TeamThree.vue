@@ -47,11 +47,12 @@ onMounted(async () => {
                 <div class="col-xl-6 col-lg-6 order-1 order-lg-2">
                     <div class="team-content-wrap">
                         <div class="section-title">
-                            <h6>Our Team</h6>                            
-                            <h2>Meet Our talent & <br> Professional Roofers</h2>
+                            <h6>Naš tim</h6>                            
+                            <h2>Saznajte više o našem timu</h2>
                         </div>
-                        <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                        <router-link :to="{name:'team'}" class="theme-btn mt-30">More Team</router-link>                        
+                        <p>Naš tim čine iskusni stručnjaci posvećeni kvaliteti, inovacijama i vrhunskoj usluzi.
+                            Zajedno radimo kako bismo svakom klijentu pružili pouzdano i učinkovito rješenje grijanja, prilagođeno njegovim potrebama.</p>
+                        <!-- <router-link :to="{name:'team'}" class="theme-btn mt-30">More Team</router-link>                         -->
                     </div>
                 </div>
             </div>

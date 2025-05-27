@@ -1,0 +1,86 @@
+{
+    "blogs":[
+      {
+        "id": "1",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-01.png",
+        "cat":"Označavanje",      
+        "title":"Označiti površinu za postavljanje grijaćih traka, umanjenu za površinu koju zauzima veliki namještaj. Odmaknuti se 15-30 cm od rubova zida.",    
+        "dated":"April 30 2024"    
+        
+      },
+      {
+        "id": "2",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-02.png",
+        "cat":"Priprema",      
+        "title":"Pripremiti mjesta za ugradnju napajanja s transformatorom (10-20 cm iznad poda) i za termostat (150 cm iznad poda).",    
+        "dated":"April 15 2024"    
+      },
+      {
+        "id": "3",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-2025-s-03.png",
+        "cat":"Ugradnja",      
+        "title":"Ugraditi napajanje u zid te spojiti jedan kraj grijaće trake na za to predviđeno mjesto zajedno s jednim izlazom transformatora.",    
+        "dated":"April 8 2024"    
+      },
+      {
+        "id": "4",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-04.png",
+        "cat":"Polaganje trake",      
+        "title":"Započeti polaganje trake od mjesta napajanja. Razmak između traka ovisi od veličine prostora i dužine grijaće trake.",    
+        "dated":"March 28 2024"    
+      },
+      {
+        "id": "5",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-05.png",
+        "cat":"Polaganje trake",      
+        "title":"Na mjestima savijanja pričvrstiti traku za pod sa samoljepljivom trakom (Power tape).",    
+        "dated":"April 30 2024"    
+        
+      },
+      {
+        "id": "6",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-06.png",
+        "cat":"Kraj polaganja trake",      
+        "title":"Položiti traku po površini tako da drugi kraj trake završi na mjestu napajanja (za sad bez spajanja).",    
+        "dated":"April 15 2024"    
+      },
+      {
+        "id": "7",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-07.png",
+        "cat":"Provjera otpora",      
+        "title":"Mjernim instrumentom provjeriti električnu vodljivost trake te njen otpor.",    
+        "dated":"April 8 2024"    
+      },
+      {
+        "id": "8",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-2025-s-08.png",
+        "cat":"Spajanje trake",      
+        "title":"Ako je sve u redu, spojiti drugi kraj trake na predviđeno mjesto, te glavni kabel za napajanje strujom iz mreže.",    
+        "dated":"March 28 2024"    
+      },
+      {
+        "id": "9",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-09.png",
+        "cat":"Zaštita",      
+        "title":"Prekriti cijelu površinu prostorije fasadnom mrežicom ili plastičnom folijom, preko grijaćih traka (potrebno samo ako ide tekući estrih, ljepilo za pločice, cementni pod ili slično).",    
+        "dated":"March 28 2024"    
+      },
+      {
+        "id": "10",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-s-10.png",
+        "cat":"Završni sloj",      
+        "title":"Nanijeti završni sloj, tekući estrih, ljepilo za pločice, cementnu košuljicu ili slično i pričekati da se osuši. Nakon sušenja položiti podnu oblogu.",    
+        "dated":"March 28 2024"    
+      },
+      {
+        "id": "11",
+        "img":"assets/img/egrijanje/Postupak-ugradnje-2025-s-11.png",
+        "cat":"Spajanje termostata",      
+        "title":"Spojiti termostat prema uputama, te spojiti kabel napajanja na mrežni priključak.",    
+        "dated":"March 28 2024"    
+      }
+         
+         
+    ]
+  }
+  

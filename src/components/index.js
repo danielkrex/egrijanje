@@ -19,6 +19,7 @@ export { default as AboutThree } from "./about/AboutThree.vue";
 export { default as ServicesOne } from "./services/ServicesOne.vue";
 export { default as ServicesTwo } from "./services/ServicesTwo.vue";
 export { default as ServicesThree } from "./services/ServicesThree.vue";
+export { default as ServicesFour } from "./services/ServicesFour.vue";
 
 export { default as ProjectOne } from "./project/ProjectOne.vue";
 export { default as ProjectTwo } from "./project/ProjectTwo.vue";
@@ -36,6 +37,9 @@ export { default as CallToAction } from "./CallToAction.vue";
 export { default as FeatureSection } from "./FeatureSection.vue";
 export { default as ProcessSection } from "./ProcessSection.vue";
 export { default as ClientSection } from "./ClientSection.vue";
+export { default as ProductDescriptionSection } from "./ProductDescriptionSection.vue";
+export { default as ProductDescriptionSectionTwo } from "./ProductDescriptionSectionTwo.vue";
+export { default as OrderNowSection } from "./OrderNowSection.vue";
 
 export { default as TestimonialOne } from "./testimonials/TestimonialOne.vue";
 export { default as TestimonialThree } from "./testimonials/TestimonialThree.vue";

@@ -19,6 +19,7 @@ import {
 	  ProjectDetailsLeft,
 	  ProjectDetailsRight,
 	  ProjectDetailsGallery,
+	  Product,
 	  Blog,
 	  BlogDetails,
 	  Contact,
@@ -32,6 +33,17 @@ const routes = [
 		path: "/",
 		name: "home",
 		component: HomeOne,
+	},
+
+	{
+		path: "/product",
+		name: "product",
+		component: Product,
+	},
+	{
+		path: "/about",
+		name: "O nama",
+		component: About,
 	},
 
 	{
