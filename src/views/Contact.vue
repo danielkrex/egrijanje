@@ -67,7 +67,7 @@ onMounted(() => {
                         <div class="contact-icon">
                             <img src="/assets/img/contact/2.png" alt="">
                         </div>
-                        <p> <a href="mailto:info@egrijanje.hr">info@egrijanje.hr</a></p>
+                        <p> <a href="mailto:info@e-grijanje.hr">info@e-grijanje.hr</a></p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-12">

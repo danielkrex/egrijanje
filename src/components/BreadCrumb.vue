@@ -12,8 +12,8 @@ const currentPageTitle = computed(() => {
       case "services":
       currentPath = "Naše usluge";
       break;           
-      case "team":
-      currentPath = "Naš tim";
+      case "team": 
+      currentPath = "Naš tim profesionalaca";
       break;           
       case "price":
       currentPath = "Cijena";
@@ -65,6 +65,12 @@ const currentPageTitle = computed(() => {
       break;           
       case "product":
       currentPath = "Zašto odabrati eGrijanje 12V?";
+      break;
+      case "zasto-egrijanje":
+      currentPath = "Zašto odabrati eGrijanje 12V?";
+      break;
+      case "opis-proizvoda":
+      currentPath = "Opis proizvoda";
       break;           
       default:
       currentPath = route.name;

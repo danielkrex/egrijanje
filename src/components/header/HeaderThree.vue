@@ -66,14 +66,14 @@ onMounted(() => {
                                 <li :class="route.name === 'home' ? 'active' : ''">
                                     <router-link class="navlink" :to="{ name: 'home' }">Početna</router-link>
                                 </li>
-                                <li :class="route.name === 'product' ? 'active' : ''">
-                                    <router-link class="navlink" :to="{ name: 'product' }">Zašto eGrijanje?</router-link>
+                                <li :class="route.name === 'zasto-egrijanje' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'zasto-egrijanje' }">Zašto eGrijanje?</router-link>
                                 </li>
-                                <li :class="route.name === 'product' ? 'active' : ''">
-                                    <router-link class="navlink" :to="{ name: 'product' }">Opis proizvoda</router-link>
+                                <li :class="route.name === 'opis-proizvoda' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'opis-proizvoda' }">Opis proizvoda</router-link>
                                 </li>
-                                <li :class="route.name === 'project-grid' ? 'active' : ''">
-                                    <router-link class="navlink" :to="{ name: 'project-grid' }">Projekti</router-link>
+                                <li :class="route.name === 'onama' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'onama' }">O nama</router-link>
                                 </li>
 
                                 <li :class="route.name === 'contact' ? 'active' : ''">

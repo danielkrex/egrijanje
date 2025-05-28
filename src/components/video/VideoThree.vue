@@ -14,10 +14,10 @@ $(".video-play-btn").magnificPopup({
 
 <template>
 
-    <div id="video-3" class="container video-section" data-background="/assets/img/video-bg-2.jpg">        
+    <div id="video-3" class="container video-section" data-background="/assets/img/egrijanje/egrijanje-video-bkg.png">       
         <div class="video-inner-box">            
             <div class="play-btn">
-                <a href="https://www.youtube.com/watch?v=E1-Vtm6UJxg" class="video-play-btn mfp-iframe"><i class="las la-play"></i></a>
+                <a href="https://youtu.be/2mmxKPrDHSg?si=YKDaWY-NMZBWaagv" class="video-play-btn mfp-iframe"><i class="las la-play"></i></a>
             </div>
         </div>    
     </div>

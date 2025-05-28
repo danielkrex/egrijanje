@@ -37,7 +37,7 @@ onMounted(() => {
                     </div>
                     <p>Ispunite kratki obrazac i brzo ćete dobiti ponudu zajedno s detaljima o pravom proizvodu za vaš dom ili projekt.</p>
                     
-                    <router-link :to="{name:'contact'}" class="theme-btn d-none d-lg-inline-block">Zatraži ponudu</router-link>
+                    <router-link :to="{name:'contact'}" class="theme-btn d-lg-inline-block">Zatraži ponudu</router-link>
                     <h4 class="mb-3 pt-50">Trebate još brži odgovor?</h4>
                     <p>Nazovite nas na <a class="tel-link" href="tel:+385959152692">+385 95 915 2692</a> i rado ćemo vam pomoći.</p>
                 </div>

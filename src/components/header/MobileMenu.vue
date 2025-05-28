@@ -38,62 +38,18 @@ onMounted(() => {
               </button>
               <nav class="sidebar-nav">
                   <ul class="metismenu" id="mobile-menu">
-                      <li><a class="has-arrow" href="#">Homes</a>
-                          <ul class="sub-menu">
-                            <li><router-link class="active" :to="{name:'home'}">Home - One</router-link></li>                                        
-                            <li><router-link :to="{name:'home2'}">Home - Two</router-link></li>                                                                                
-                            <li><router-link :to="{name:'home3'}">Home - Three</router-link></li>                                                                                                                        
-                          </ul>
-                      </li>
-                      <li><a class="has-arrow" href="#">Pages</a>
-                          <ul class="sub-menu">
-                            <li><router-link :to="{name:'about'}">About Us</router-link></li>
-                            <li><router-link :to="{name:'services'}">Our Services</router-link></li>
-                            <li><router-link :to="{name:'team'}">Our Team</router-link></li>
-                            <li><router-link :to="{name:'price'}">Pricing</router-link></li>
-                            <li><router-link :to="{name:'faq'}">Faq</router-link></li>
-                          </ul>
-                      </li>
-                      <li><a class="has-arrow" href="#">Services</a>
-                        <ul class="sub-menu">
-                            <li><router-link :to="{name:'services'}">Services</router-link></li>
-                            <li><router-link :to="{name:'service-details'}">Service Details</router-link></li>                                        
-                        </ul>
-                    </li>
-                      <li><a class="has-arrow" href="#">Projects</a>
-                          <ul class="sub-menu">
-                            <li><router-link :to="{name:'project-standard'}">Standard</router-link></li>
-                            <li><router-link :to="{name:'project-metro'}">Metro Fullwidth</router-link></li>
-                            <li><router-link :to="{name:'project-grid'}">Grid</router-link></li>
-                            <li><router-link :to="{name:'project-list'}">List</router-link></li>
-                            <li><router-link :to="{name:'project-masonry'}">Masonry</router-link></li>
-                            <li><router-link :to="{name:'project-slider'}">Slider</router-link></li>
-                            <li class="nav-item">
-                                <a href="#">Single Project <i class="las la-arrow-right"></i>
-                                    <span class="sub-nav-toggler"></span>
-                                </a>
-                                <ul class="sub-menu-two">
-                                    <li><router-link :to="{name:'project-details-left'}">Left Sidebar</router-link></li>
-                                    <li><router-link :to="{name:'project-details-right'}">Right Sidebar</router-link></li>
-                                    <li><router-link :to="{name:'project-details-gallery'}">Gallery</router-link></li>                                                
-                                </ul>
-                            </li>
-                          </ul>
-                      </li>                                            
-                      <li><a class="has-arrow" href="#">Blog</a>
-                          <ul class="sub-menu">
-                            <li><router-link :to="{name:'blog'}">Blogs</router-link></li>                                                
-                            <li><router-link :to="{name:'blog-details'}">Blog Details</router-link></li>                                                                                        
-                          </ul>
-                      </li>
-                      <li><router-link :to="{name:'contact'}">Contact</router-link></li>                                                
+                    <li><router-link :to="{name:'home'}">Početna</router-link></li>     
+                    <li><router-link :to="{name:'product'}">Zašto eGrijanje?</router-link></li>     
+                    <li><router-link :to="{name:'opis-proizvoda'}">Opis proizvoda</router-link></li>     
+                    <li><router-link :to="{name:'team'}">O nama</router-link></li>     
+                    <li><router-link :to="{name:'contact'}">Kontakt</router-link></li>     
 
                   </ul>
               </nav>
               <div class="action-bar">
-                  <a href="mailto:info@carpent.com"><i class="las la-envelope"></i>info@carpent.com</a>
-                  <a href="tel:123-456-7890"><i class="fal fa-phone"></i>123-456-7890</a>
-                  <router-link :to="{name:'contact'}" class="theme-btn">Contact Us</router-link>
+                  <a href="mailto:info@e-grijanje.hr"><i class="las la-envelope"></i>info@e-grijanje.hr</a>
+                  <a href="tel:+385959152692"><i class="fal fa-phone"></i>+385 95 915 2692</a>
+                  <router-link :to="{name:'contact'}" class="theme-btn">Zatraži ponudu</router-link>
               </div>
           </div>
       </div>                            

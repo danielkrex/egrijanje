@@ -1,30 +1,30 @@
-import {createRouter, createWebHistory} from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 import {
-	  HomeOne,
-	  HomeTwo, 
-	  HomeThree, 
-	  About,
-	  Services,
-	  Team,
-	  Price,
-	  Faq,
-	  ServiceDetails,
-	  ProjectStandard,
-	  ProjectMetro,
-	  ProjectGrid,
-	  ProjectList,    
-	  ProjectMasonry,
-	  ProjectSlider,
-	  ProjectDetailsLeft,
-	  ProjectDetailsRight,
-	  ProjectDetailsGallery,
-	  Product,
-	  Blog,
-	  BlogDetails,
-	  Contact,
+	HomeOne,
+	HomeTwo,
+	HomeThree,
+	About,
+	Services,
+	Team,
+	Price,
+	Faq,
+	ServiceDetails,
+	ProjectStandard,
+	ProjectMetro,
+	ProjectGrid,
+	ProjectList,
+	ProjectMasonry,
+	ProjectSlider,
+	ProjectDetailsLeft,
+	ProjectDetailsRight,
+	ProjectDetailsGallery,
+	Product,
+	Blog,
+	BlogDetails,
+	Contact,
 
-  } from "../views";
+} from "../views";
 
 
 
@@ -40,6 +40,13 @@ const routes = [
 		name: "product",
 		component: Product,
 	},
+
+	{
+		path: "/zasto-egrijanje",
+		name: "zasto-egrijanje",
+		component: Product,
+	},
+
 	{
 		path: "/about",
 		name: "O nama",
@@ -61,10 +68,15 @@ const routes = [
 		path: "/about",
 		name: "about",
 		component: About,
-	},	
+	},
 	{
 		path: "/team",
 		name: "team",
+		component: Team,
+	},
+	{
+		path: "/o-nama",
+		name: "onama",
 		component: Team,
 	},
 	{
@@ -133,6 +145,11 @@ const routes = [
 		component: ProjectDetailsGallery,
 	},
 	{
+		path: "/opis-proizvoda",
+		name: "opis-proizvoda",
+		component: Blog,
+	},
+	{
 		path: "/blog",
 		name: "blog",
 		component: Blog,
@@ -149,19 +166,19 @@ const routes = [
 	},
 
 
-		
+
 ];
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
 	routes,
 	scrollBehavior(to, from, savedPosition) {
-	  if (savedPosition) {
-		return savedPosition;
-	  } else {
-		return { top: 0, left: 0 };
-	  }
+		if (savedPosition) {
+			return savedPosition;
+		} else {
+			return { top: 0, left: 0 };
+		}
 	},
-  });
+});
 
 export default router

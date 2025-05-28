@@ -34,6 +34,7 @@ export { default as ServiceSlider } from "./ServiceSlider.vue";
 export { default as FaqSection } from "./FaqSection.vue";
 export { default as PriceSection } from "./PriceSection.vue";
 export { default as CallToAction } from "./CallToAction.vue";
+export { default as CallToActionOne } from "./CallToActionOne.vue";
 export { default as FeatureSection } from "./FeatureSection.vue";
 export { default as ProcessSection } from "./ProcessSection.vue";
 export { default as ClientSection } from "./ClientSection.vue";

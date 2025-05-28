@@ -62,53 +62,22 @@ onMounted(() => {
                         <!-- Main Menu  -->
                         <div class="main-menu d-none d-lg-block">
                             <ul>
-                                <li class="active"><a class="navlink" href="#">Naslovna</a>
+                                <li :class="route.name === 'home' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'home' }">Početna</router-link>
                                 </li>
-                                <li><a class="navlink" href="#">Zašto eGrijanje?</a>
-                                    <ul class="sub-menu">
-                                        <li><router-link :to="{name:'about'}">About Us</router-link></li>
-                                        <li><router-link :to="{name:'services'}">Our Services</router-link></li>
-                                        <li><router-link :to="{name:'team'}">Our Team</router-link></li>
-                                        <li><router-link :to="{name:'price'}">Pricing</router-link></li>
-                                        <li><router-link :to="{name:'faq'}">Faq</router-link></li>                                        
-                                    </ul>
-                                </li> 
-                                <li><a class="navlink" href="#">Opis proizvoda</a>
-                                    <ul class="sub-menu">
-                                        <li><router-link :to="{name:'services'}">Services</router-link></li>
-                                        <li><router-link :to="{name:'service-details'}">Service Details</router-link></li>                                        
-                                    </ul>
-                                </li>                               
-                                <li><a class="navlink" href="#">Postupak ugradnje</a>
-                                    <ul class="sub-menu">
-                                        <li><router-link :to="{name:'project-standard'}">Standard</router-link></li>
-                                        <li><router-link :to="{name:'project-metro'}">Metro Fullwidth</router-link></li>
-                                        <li><router-link :to="{name:'project-grid'}">Grid</router-link></li>
-                                        <li><router-link :to="{name:'project-list'}">List</router-link></li>
-                                        <li><router-link :to="{name:'project-masonry'}">Masonry</router-link></li>
-                                        <li><router-link :to="{name:'project-slider'}">Slider</router-link></li>
-                                        
-                                                    
-                                        <li class="nav-item">
-                                            <a href="#">Single Project <i class="las la-arrow-right"></i>
-                                                <span class="sub-nav-toggler"></span>
-                                            </a>
-                                            <ul class="sub-menu-two">
-                                                <li><router-link :to="{name:'project-details-left'}">Left Sidebar</router-link></li>
-                                                <li><router-link :to="{name:'project-details-right'}">Right Sidebar</router-link></li>
-                                                <li><router-link :to="{name:'project-details-gallery'}">Gallery</router-link></li>                                                
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                <li :class="route.name === 'zasto-egrijanje' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'zasto-egrijanje' }">Zašto eGrijanje?</router-link>
                                 </li>
-                                <li><a class="navlink" href="#">Galerija</a>
-                                    <ul class="sub-menu">
-                                        <li><router-link :to="{name:'blog'}">Blogs</router-link></li>                                                
-                                        <li><router-link :to="{name:'blog-details'}">Blog Details</router-link></li>                                                                                        
-                                    </ul>
+                                <li :class="route.name === 'opis-proizvoda' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'opis-proizvoda' }">Opis proizvoda</router-link>
                                 </li>
-                                                                
-                                <li><router-link :to="{name:'contact'}">Kontakt</router-link></li>                                                
+                                <li :class="route.name === 'onama' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'onama' }">O nama</router-link>
+                                </li>
+
+                                <li :class="route.name === 'contact' ? 'active' : ''">
+                                    <router-link class="navlink" :to="{ name: 'contact' }">Kontakt</router-link>
+                                </li>
                             </ul>
                         </div>
 

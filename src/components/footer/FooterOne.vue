@@ -20,10 +20,10 @@
                             Hrvatskih branitelja 43g, 10434 Strmec, Hrvatska
                         </p>
                         <div class="company-email">
-                            <a href="mailto:info@trafo.hr">info@trafo.hr</a>
+                            <a href="mailto:info@e-grijanje.hr">info@e-grijanje.hr</a>
                         </div>
                         <div class="company-email">
-                            <a href="tel:+385915555555" style="text-decoration: none;">+385 91 555 55 55</a>
+                            <a href="tel:+385959152692" style="text-decoration: none;">+385 95 915 2692</a>
                         </div>
 
                     </div>
@@ -31,11 +31,11 @@
                         <h5>Poveznice</h5>
                         <ul>
                             <li>
-                                <router-link :to="{ name: 'about' }">O nama</router-link>
-                                <router-link :to="{ name: 'services' }">Usluge</router-link>
-                                <router-link :to="{ name: 'project-standard' }">Projekti</router-link>
-                                <router-link :to="{ name: 'price' }">Cijena</router-link>
-                                <router-link :to="{ name: 'faq' }"> FAQ</router-link>
+                                <router-link :to="{ name: 'home' }">Početna</router-link>
+                                <router-link :to="{ name: 'product' }">Zašto eGrijanje?</router-link>
+                                <router-link :to="{ name: 'opis-proizvoda' }">Opis proizvoda</router-link>
+                                <router-link :to="{ name: 'team' }">O nama</router-link>
+                                <router-link :to="{ name: 'contact' }">Kontakt</router-link>
                             </li>
                         </ul>
                     </div>
@@ -44,8 +44,8 @@
                         <ul>
                             <li>
                                 <div class="social-area">
-                                    <a href="#"><i class="lab la-facebook-f"></i>Facebook</a>
-                                    <a href="#"><i class="lab la-instagram"></i>Instagram</a>
+                                    <a href="https://www.facebook.com/profile.php?id=61562272122815" target="_blank"><i class="lab la-facebook-f"></i>Facebook</a>
+                                    <a href="https://www.instagram.com/egrijanje" target="_blank"><i class="lab la-instagram"></i>Instagram</a>
                                 </div>
                             </li>
                         </ul>
@@ -62,9 +62,8 @@
         <div class="container">
             <div class="row justify-content-center align-items-center justify-content-center">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <p class="copyright-line">© 2025 trafo d.o.o. eGrijanje je trgovački naziv tvrtke trafo d.o.o.
-                        Registrirano u Hrvatskoj, Hrvatskih branitelja 43g, 10434 Strmec. <br /> MB: 00739677 OIB:
-                        23237620572.</p>
+                    <p class="copyright-line">© 2025 Pasivni dom d.o.o. eGrijanje je trgovački naziv tvrtke Pasivni dom d.o.o.
+                        Registrirano u Hrvatskoj, Hrvatskih branitelja 43g, 10434 Strmec. <br /> MB: 081581193 OIB: 17590037681</p>
                 </div>
             </div>
         </div>

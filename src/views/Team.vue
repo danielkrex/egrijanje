@@ -38,12 +38,12 @@ odo.each(function () {
                 <div class="counter-content">
                     <div class="single-counter-item">
                         <h6>Godina</h6>                                
-                        <h1><span class="odometer" data-count="12">5</span>+</h1>
+                        <h1><span class="odometer" data-count="5">5</span>+</h1>
                         <p>Adipiscing elit, do eiusm.</p>
                     </div>
                     <div class="single-counter-item">
                         <h6>Ljudi</h6>                                
-                        <h1><span class="odometer" data-count="100">11</span>+</h1>
+                        <h1><span class="odometer" data-count="11">11</span>+</h1>
                         <p>Sed do eiusmod tempor.</p>
                     </div>
                 </div>
@@ -113,7 +113,33 @@ odo.each(function () {
                         </div>                                    
                     </div>
                 </div>
-            </div>                            
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                <div class="single-team-member">
+                    <div class="team-bg">
+                        <img src="/assets/img/egrijanje/team/team-05.png" alt="">
+                    </div>
+                    <div class="team-hover-info">
+                        <div class="team-title">
+                            <h5>Mate Perinović</h5>
+                            <span>dipl. ing. strojarstva, Rijeka</span>
+                        </div>                                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                <div class="single-team-member">
+                    <div class="team-bg">
+                        <img src="/assets/img/egrijanje/team/team-06.png" alt="">
+                    </div>
+                    <div class="team-hover-info">
+                        <div class="team-title">
+                            <h5>Jadranko Marković</h5>
+                            <span>Zastupnik za Istru</span>
+                        </div>                                    
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
