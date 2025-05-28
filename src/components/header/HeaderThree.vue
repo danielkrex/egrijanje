@@ -56,7 +56,7 @@ onMounted(() => {
 
                         <!-- Logo -->
                         <div class="logo">
-                            <router-link class="navbar-brand" to="/home-3"><img src="/assets/img/logo-2.png"
+                            <router-link class="navbar-brand" to="/"><img src="/assets/img/logo-2.png"
                                     alt=""></router-link>
                         </div>
 
