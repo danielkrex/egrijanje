@@ -1,27 +1,403 @@
 {
     "projects":[
       {
-        "img": "assets/img/project/2-1.jpg",
-        "title": "Roof Installation",             
-        "cat": "Simple Roofing"             
+        "id": 1,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-01-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-01-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-01-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-01-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-01-5.jpg"
+          }
+        ],
+        "title": "Kuća Dubrava, potkrovlje – 4 zone grijanja",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje položeno na izolacijske ploče od drvenih vlakana.",
+        "text": "U potkrovlju kuće u Dubravi izvedene su četiri neovisne zone podnog grijanja. Sustav je položen direktno na izolacijske ploče izrađene od drvenih vlakana, što osigurava ekološki prihvatljivu toplinsku i zvučnu izolaciju te ravnomjernu raspodjelu topline kroz cijeli prostor."
       },
       {
-        "img": "assets/img/project/2-2.jpg",
-        "title": "Roof Repair",             
-        "cat": "Preparation Project"             
+        "id": 2,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-02-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-02-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-02-3.jpg"
+          }
+        ],
+        "title": "Drvena kuća Galgovo – grijanje kupaonice i kuhinje",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje kupaonice i kuhinje u drvenoj kući za stanovanje.",
+        "text": "U drvenoj kući u Galgovu izveden je sustav podnog grijanja u prostorijama kupaonice i kuhinje. Zbog specifičnosti drvene konstrukcije, odabrani su materijali i tehnike prilagođene za efikasno grijanje uz očuvanje strukturalne stabilnosti objekta. Rješenje pruža toplinsku udobnost u ključnim prostorima za svakodnevni boravak, uz visoku energetsku učinkovitost."
       },
       {
-        "img": "assets/img/project/2-3.jpg",
-        "title": "Roof Maintenance",             
-        "cat": "Leak Detection"             
+        "id": 3,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-5.jpg"
+          },
+          {
+            "id": 6,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-6.jpg"
+          },
+          {
+            "id": 7,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-03-7.jpg"
+          }
+        ],
+        "title": "Stan u kući Karlovac",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje na estrih, završna obrada s mrežicom i masom za zaštitu.",
+        "text": "Podno grijanje u stanu izvedeno je direktno na estrih, a dodatno je zaštićeno armiranom mrežicom i završnom masom za zaštitu. Ova slojevita struktura pruža dodatnu čvrstoću i dugotrajnost sustava, uz optimalnu distribuciju topline."
       },
       {
-        "img": "assets/img/project/2-4.jpg",
-        "title": "Roof Installation",             
-        "cat": "Felt Roofing"             
+        "id": 4,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-04-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-04-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-04-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-04-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-04-5.jpg"
+          }
+        ],
+        "title": "Kuća za stanovanje/najam – 13 zona grijanja",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Glavno grijanje cijele kuće s 13 upravljanih zona, površine preko 300 m².",
+        "text": "U prostranoj kući površine iznad 300 m², namijenjenoj za stanovanje ili najam, izveden je centralni sustav podnog grijanja podijeljen u čak 13 upravljivih zona. Ovakav sustav omogućuje precizno upravljanje temperaturom u svakom dijelu objekta, pružajući maksimalnu energetsku učinkovitost i udobnost. Rješenje je idealno za objekte većih kvadratura s promjenjivim potrebama grijanja – bilo za privatno stanovanje ili kao turistički najam."
+      },
+      {
+        "id": 5,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-05-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-05-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-05-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-05-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-05-5.jpg"
+          }
+        ],
+        "title": "Stambena kuća Ludbreg – 4 zone grijanja",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje izvedeno ispod estriha u četiri upravljane zone.",
+        "text": "U obiteljskoj kući u Ludbregu ugrađen je sustav podnog grijanja podijeljen u četiri neovisne zone, čime se omogućuje individualno upravljanje temperaturom po prostoru. Cijevi sustava postavljene su ispod estriha, što omogućuje kvalitetnu akumulaciju topline, ravnomjernu distribuciju i dugotrajnu energetsku učinkovitost. Ovakva izvedba jamči pouzdan i nevidljiv sustav grijanja, prilagođen svakodnevnom korištenju."
+      },
+      {
+        "id": 6,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-5.jpg"
+          },
+          {
+            "id": 6,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-6.jpg"
+          },
+          {
+            "id": 7,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-7.jpg"
+          },
+          {
+            "id": 8,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-8.jpg"
+          },
+          {
+            "id": 9,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-9.jpg"
+          },
+          {
+            "id": 10,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-10.jpg"
+          },
+          {
+            "id": 11,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-06-11.jpg"
+          }
+        ],
+        "title": "Stan – grijanje u cijelom prostoru (100 m², 6 sustava)",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje u stanu površine 100 m², izvedeno kroz 6 odvojenih sustava.",
+        "text": "U stambenom prostoru od 100 m² izveden je podni sustav grijanja koji obuhvaća cijeli stan. Grijanje je podijeljeno na 6 odvojenih sustava, što omogućuje neovisno upravljanje temperaturom u različitim dijelovima prostora. Takva podjela pruža maksimalnu fleksibilnost korisnicima te doprinosi uštedi energije i povećanju komfora. Sustav je posebno pogodan za moderne stanove u kojima se želi zadržati minimalan vizualni utjecaj grijanja uz optimalnu funkcionalnost."
+      },
+      {
+        "id": 7,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-07-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-07-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-07-3.jpg"
+          }
+        ],
+        "title": "Montažna kuća Zagreb – Rugvica, 5 zona grijanja",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Kompletno grijanje u montažnoj kući, izvedeno kroz 5 odvojenih sustava.",
+        "text": "U montažnoj kući smještenoj u Rugvici kod Zagreba izveden je kompletan sustav podnog grijanja, podijeljen u 5 upravljivih zona. Sustav je prilagođen specifičnostima montažne gradnje te omogućuje ravnomjernu i brzu distribuciju topline kroz cijeli objekt. Svaka zona ima neovisno upravljanje, čime se postiže veća kontrola, udobnost i energetska učinkovitost — idealno za suvremeni način stanovanja u montažnim kućama."
+      },
+      {
+        "id": 8,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-08-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-08-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-08-3.jpg"
+          }
+        ],
+        "title": "Naselje Hoto Ville, Sveta Nedelja – grijanje dnevnog boravka i kuhinje",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje dnevnog boravka i kuhinje izvedeno suhom ugradnjom s vinil podlogom.",
+        "text": "U naselju Hoto Ville u Svetoj Nedelji izvedeno je podno grijanje u dnevnom boravku i kuhinji, koristeći metodu suhe ugradnje. Ova tehnika omogućuje brzu i čistu montažu, bez potrebe za estrihom, što je idealno za adaptacije i moderne gradnje. Kao završni sloj korišten je vinil, koji je kompatibilan s podnim grijanjem i omogućuje ravnomjernu distribuciju topline, visoku udobnost te estetski skladan završetak prostora."
+      },
+      {
+        "id": 9,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-09-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-09-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-09-3.jpg"
+          }
+        ],
+        "title": "Kuća Virovitica – grijanje kupaonice i dnevnog prostora",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje kupaonice i dnevnog prostora u obiteljskoj kući u Virovitici.",
+        "text": "U obiteljskoj kući u Virovitici izvedeno je podno grijanje u dvije ključne prostorije – kupaonici i dnevnom boravku. Rješenje je prilagođeno svakodnevnim potrebama korisnika, osiguravajući toplinu u prostorima koji zahtijevaju najveću udobnost. Grijanje je izvedeno tako da ravnomjerno raspoređuje toplinu, uz nisku potrošnju energije i jednostavno upravljanje."
+      },
+      {
+        "id": 10,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-10-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-10-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-10-3.jpg"
+          }
+        ],
+        "title": "Stambena kuća Virovitica – 4 zone grijanja (80 m²)",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje u kući od 80 m² podijeljeno u 4 upravljive zone.",
+        "text": "U stambenoj kući u Virovitici, površine 80 m², izveden je sustav podnog grijanja podijeljen u četiri neovisne zone. Ovakva podjela omogućuje preciznu regulaciju temperature u svakom dijelu kuće, čime se povećava energetska učinkovitost i udobnost stanovanja. Sustav je optimiziran za manju kvadraturu s naglaskom na funkcionalnost, pouzdanost i ravnomjernu raspodjelu topline."
+      },
+      {
+        "id": 11,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-11-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-11-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-11-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-11-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-11-5.jpg"
+          }
+        ],
+        "title": "Stambena kuća Klanjec kod Zaboka – grijanje kompletne kuće (150 m²)",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Podno grijanje u cijeloj kući površine 150 m².",
+        "text": "U stambenoj kući u Klanjcu kod Zaboka izveden je sustav podnog grijanja koji pokriva cijelu površinu objekta od 150 m². Sustav je dizajniran za optimalnu raspodjelu topline u svim prostorijama, pružajući korisnicima visok stupanj udobnosti i energetsku učinkovitost. Implementacija uključuje pažljivo planiranje i zoniranje radi jednostavnog upravljanja temperaturom po prostorijama."
+      },
+      {
+        "id": 12,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-12-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-12-2.jpg"
+          }
+        ],
+        "title": "Stan novogradnja Petrčane/Zadar – 3 zone grijanja",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Podno grijanje u novogradnji stana podijeljeno u 3 zone.",
+        "text": "U novogradnji stana u Petrčanama kraj Zadra izveden je sustav podnog grijanja s tri zasebne zone. Takva podjela omogućuje neovisno upravljanje temperaturom u različitim dijelovima stana, što povećava energetsku učinkovitost i pruža veću udobnost stanarima. Sustav je prilagođen modernim građevinskim standardima i dizajniran za dugotrajnu pouzdanost."
+      },
+      {
+        "id": 13,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-5.jpg"
+          },
+          {
+            "id": 6,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-6.jpg"
+          },
+          {
+            "id": 7,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-7.jpg"
+          },
+          {
+            "id": 8,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-13-8.jpg"
+          }
+        ],
+        "title": "Arhitektonski ured Zagreb – centar",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Grijanje u prostorijama arhitektonskog ureda u centru Zagreba.",
+        "text": "U prostorijama arhitektonskog ureda smještenog u centru Zagreba izveden je sustav podnog grijanja prilagođen uredskom prostoru. Sustav je dizajniran za ravnomjernu distribuciju topline, povećanu energetsku učinkovitost i maksimalnu udobnost zaposlenika. Instalacija je izvedena s naglaskom na funkcionalnost i diskretan dizajn, idealan za profesionalno radno okruženje."
+      },
+      {
+        "id": 14,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-14-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-14-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-14-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-14-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-14-5.jpg"
+          }
+        ],
+        "title": "Wellness soba – Mikulići, Zagreb",             
+        "cat": "Unutarnje grijanje",
+        "opis": "Podno grijanje za wellness sobu u Mikulićima, Zagreb.",
+        "text": "U wellness sobi smještenoj u Mikulićima, Zagrebu izveden je sustav podnog grijanja prilagođen specifičnim potrebama prostora za opuštanje i ugodu. Sustav omogućuje ravnomjernu i ugodnu toplinu, stvarajući optimalne uvjete za relaksaciju. Posebna pažnja posvećena je odabiru materijala i tehnologiji koja osigurava sigurnost i energetsku učinkovitost u zahtjevnom wellness okruženju."
       }
-      
-    
     ]
   }
   

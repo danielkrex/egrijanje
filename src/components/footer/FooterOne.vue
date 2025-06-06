@@ -35,6 +35,7 @@
                                 <router-link :to="{ name: 'product' }">Zašto eGrijanje?</router-link>
                                 <router-link :to="{ name: 'opis-proizvoda' }">Opis proizvoda</router-link>
                                 <router-link :to="{ name: 'team' }">O nama</router-link>
+                                <router-link :to="{ name: 'projekti' }">Projekti</router-link>
                                 <router-link :to="{ name: 'contact' }">Kontakt</router-link>
                             </li>
                         </ul>

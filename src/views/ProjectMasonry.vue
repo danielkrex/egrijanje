@@ -1,150 +1,42 @@
 <script setup>
-import { BreadCrumb, HeaderThree,  } from '@/components';
+import { BreadCrumb, HeaderOne } from '@/components';
 
+import axios from 'axios'
+import { onMounted, ref } from 'vue'
+
+const projects = ref([]);
+
+onMounted(async () => {
+  const { data: fetchedProjects } = await axios.get("/data/projects.json");
+  projects.value = fetchedProjects.projects;
+});
 
 </script>
 
 
 
 <template>
-    <HeaderThree/>
-    <BreadCrumb/>
+    <HeaderOne/>
     <!-- Project Masonry -->
+     
+    <div class="blog-section section-padding">
+    <div class="section-title mb-0" style="text-align: center">
+          <h2 style="width: 100%">
+            Naši projekti</h2>
+          <p style="width: 100%; max-width: 700px; margin: 0 auto; margin-top: 30px;">
+            Pregled naših izvedenih sustava grijanja u različitim vrstama objekata. Kvaliteta, preciznost i udobnost u svakom prostoru.</p>
+        </div>
     <div id="project-masonry" class="section-padding" data-scroll-index="2">
         <div class="container">           
-            <div class="row">
-                <ul id="menu-filter" class="project-menu mb-0">
-                    <li class="list-inline-item">
-                        <a class="active" data-filter="*">All Project</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="" data-filter=".installation">Installation</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="" data-filter=".repair">Repair</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="" data-filter=".inspection">Inspection</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="" data-filter=".renovation">Renovation</a>
-                    </li>
-                </ul>
-            </div>
             <div class="row project-filter mt-30">
-                <div class="col-lg-4 col-md-6 project-item installation">
-                    <router-link :to="{name:'project-details-right'}">
+                <div class="col-lg-4 col-md-6 project-item installation" v-for="project in projects" v-bind:key="project.id">
+                    <router-link :to="{name:'projekti-id', params: { id: project.id }}">
                         <div class="project-box">
                             <div class="project-img">
-                                <img src="/assets/img/project/masonry/1.jpg" class="img-fluid mx-auto d-block" alt="" >
+                                <img :src="project.imgs[1].src" class="img-fluid mx-auto d-block" alt="" >
                             </div>
                             <div class="project-detail">
-                                <h4 class="mb-0">Roof Installation</h4>
-                                <p class="mb-3">installation</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item repair">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/2.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Repair</h4>
-                                <p class="mb-3">renovation</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item inspection">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/3.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Inspection</h4>
-                                <p class="mb-3">inspection</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item grid-of-images installation inspection">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/4.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Inspection</h4>
-                                <p class="mb-3">inspection</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item repair inspection">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/5.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Repair</h4>
-                                <p class="mb-3">repair</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item renovation installation">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/6.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Renovation</h4>
-                                <p class="mb-3">renovation</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item renovation">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/7.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Placement</h4>
-                                <p class="mb-3">Renovation</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item repair">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/8.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Roof Repair</h4>
-                                <p class="mb-3">Repair</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-4 col-md-6 project-item renovation">
-                    <router-link :to="{name:'project-details-right'}">
-                        <div class="project-box">
-                            <div class="project-img">
-                                <img src="/assets/img/project/masonry/9.jpg" class="img-fluid mx-auto d-block" alt="" >
-                            </div>
-                            <div class="project-detail">
-                                <h4 class="mb-0">Green Roof </h4>
-                                <p class="mb-3">Renovation</p>
+                                <h4 class="mb-0">{{ project.title }}</h4>
                             </div>
                         </div>
                     </router-link>
@@ -152,6 +44,8 @@ import { BreadCrumb, HeaderThree,  } from '@/components';
             </div>
         </div>
     </div>
+    
+</div>
     
 </template>
 

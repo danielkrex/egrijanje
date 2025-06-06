@@ -1,5 +1,5 @@
 <script setup>
-import { AboutThree, BreadCrumb, CallToAction, HeaderThree, ProductDescriptionSectionTwo, ServicesOne, TestimonialOne,  } from '@/components';
+import { AboutThree, BreadCrumb, CallToAction, HeaderThree, ProductDescriptionSectionTwo, ServicesOne, TestimonialOne, CallToProjects  } from '@/components';
 </script>
 
 <template>
@@ -7,6 +7,7 @@ import { AboutThree, BreadCrumb, CallToAction, HeaderThree, ProductDescriptionSe
     <BreadCrumb/>
     
     <ProductDescriptionSectionTwo/>
+    <CallToProjects/>
     <AboutThree/>
     <CallToAction/>
     <TestimonialOne/>

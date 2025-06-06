@@ -1,5 +1,5 @@
 <script setup>
-import {HeaderOne, HeaderTop, HeroOne, ServicesFour, ProductDescriptionSection, OrderNowSection, VideoOne } from '@/components';
+import {HeaderOne, HeaderTop, HeroOne, ServicesFour, ProductDescriptionSection, OrderNowSection, VideoOne, ProjectProizvodnja } from '@/components';
 </script>
 
 <template>
@@ -8,6 +8,7 @@ import {HeaderOne, HeaderTop, HeroOne, ServicesFour, ProductDescriptionSection, 
     <HeroOne/>
     <ServicesFour/>
     <ProductDescriptionSection/>
+    <ProjectProizvodnja />
     <div class="blog-section section-padding">
         <div class="section-title mb-0" style="text-align: center">
           <h2 style="width: 100%">Zanima vas postupak ugradnje?</h2>

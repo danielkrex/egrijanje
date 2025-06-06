@@ -120,6 +120,16 @@ const routes = [
 		component: ProjectList,
 	},
 	{
+		path: "/projekti",
+		name: "projekti",
+		component: ProjectMasonry,
+	},
+	{
+		path: "/projekti/:id",
+		name: "projekti-id",
+		component: ProjectDetailsLeft,
+	},
+	{
 		path: "/project-masonry",
 		name: "project-masonry",
 		component: ProjectMasonry,

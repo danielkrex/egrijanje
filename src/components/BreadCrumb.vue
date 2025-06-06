@@ -26,7 +26,13 @@ const currentPageTitle = computed(() => {
       break;           
       case "project-standard":
       currentPath = "Project - Standard";
-      break;           
+      break;
+      case "projekti":
+      currentPath = "Projekti";
+      break;
+      case "projekti-id":
+      currentPath = "Projekti";
+      break;
       case "project-metro":
       currentPath = "Project - Metro";
       break;           
@@ -71,6 +77,9 @@ const currentPageTitle = computed(() => {
       break;
       case "opis-proizvoda":
       currentPath = "Opis proizvoda";
+      break;
+      case "onama":
+      currentPath = "O nama";
       break;           
       default:
       currentPath = route.name;

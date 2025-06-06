@@ -1,5 +1,5 @@
 <script setup>
-import { AboutThree, BreadCrumb, CallToAction, HeaderThree, ServicesOne, TestimonialOne,  } from '@/components';
+import { AboutThree, BreadCrumb, CallToAction, HeaderThree, ServicesOne, TestimonialOne, CallToProjects } from '@/components';
 
 
 </script>
@@ -10,6 +10,7 @@ import { AboutThree, BreadCrumb, CallToAction, HeaderThree, ServicesOne, Testimo
     <HeaderThree/>
     <BreadCrumb/>
     <AboutThree/>
+    <CallToProjects/>
     <ServicesOne/>
     <CallToAction/>
     <TestimonialOne/>

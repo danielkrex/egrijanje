@@ -24,6 +24,7 @@ export { default as ServicesFour } from "./services/ServicesFour.vue";
 export { default as ProjectOne } from "./project/ProjectOne.vue";
 export { default as ProjectTwo } from "./project/ProjectTwo.vue";
 export { default as ProjectThree } from "./project/ProjectThree.vue";
+export { default as ProjectProizvodnja } from "./project/ProjectProizvodnja.vue"
 
 export { default as VideoOne } from "./video/VideoOne.vue";
 export { default as VideoThree } from "./video/VideoThree.vue";
@@ -34,6 +35,7 @@ export { default as ServiceSlider } from "./ServiceSlider.vue";
 export { default as FaqSection } from "./FaqSection.vue";
 export { default as PriceSection } from "./PriceSection.vue";
 export { default as CallToAction } from "./CallToAction.vue";
+export { default as CallToProjects } from "./CallToProjects.vue";
 export { default as CallToActionOne } from "./CallToActionOne.vue";
 export { default as FeatureSection } from "./FeatureSection.vue";
 export { default as ProcessSection } from "./ProcessSection.vue";
