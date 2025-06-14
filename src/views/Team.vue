@@ -111,7 +111,7 @@ onMounted(() => {
                         </div>
                         <div class="team-hover-info">
                             <div class="team-title">
-                                <h5>Andrej</h5>
+                                <h5>Dubravko</h5>
                                 <span>Proizvodnja i Montaza, Zagreb</span>
                             </div>
                         </div>
@@ -139,6 +139,58 @@ onMounted(() => {
                             <div class="team-title">
                                 <h5>Jadranko Marković</h5>
                                 <span>Zastupnik za Istru</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="single-team-member">
+                        <div class="team-bg">
+                            <img src="/assets/img/egrijanje/team/team-07.png" alt="">
+                        </div>
+                        <div class="team-hover-info">
+                            <div class="team-title">
+                                <h5>Tin</h5>
+                                <span>Monter Osijek</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="single-team-member">
+                        <div class="team-bg">
+                            <img src="/assets/img/egrijanje/team/team-08.png" alt="">
+                        </div>
+                        <div class="team-hover-info">
+                            <div class="team-title">
+                                <h5>Teo</h5>
+                                <span>Monter Osijek</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="single-team-member">
+                        <div class="team-bg">
+                            <img src="/assets/img/egrijanje/team/team-09.png" alt="">
+                        </div>
+                        <div class="team-hover-info">
+                            <div class="team-title">
+                                <h5>Bojan</h5>
+                                <span>Monter Slavonija - Daruvar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="single-team-member">
+                        <div class="team-bg">
+                            <img src="/assets/img/egrijanje/team/team-10.png" alt="">
+                        </div>
+                        <div class="team-hover-info">
+                            <div class="team-title">
+                                <h5>Matija</h5>
+                                <span>Monter Slavonija - Daruvar</span>
                             </div>
                         </div>
                     </div>

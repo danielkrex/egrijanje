@@ -47,7 +47,7 @@ onMounted(() => {
                   </ul>
               </nav>
               <div class="action-bar">
-                  <a href="mailto:info@e-grijanje.hr"><i class="las la-envelope"></i>info@e-grijanje.hr</a>
+                  <a href="mailto:egrijanje@pasivnidom.hr"><i class="las la-envelope"></i>egrijanje@pasivnidom.hr</a>
                   <a href="tel:+385959152692"><i class="fal fa-phone"></i>+385 95 915 2692</a>
                   <router-link :to="{name:'contact'}" class="theme-btn">Zatraži ponudu</router-link>
               </div>

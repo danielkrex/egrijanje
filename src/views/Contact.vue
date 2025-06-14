@@ -9,7 +9,7 @@ const message = ref('');
 
 const sendMessage = () => {
     console.log(name.value, email.value, message.value);
-    const mailtoLink = `mailto:info@egrijanje.hr?subject=${encodeURIComponent(name.value + ' - upit s web stranice')}&body=${encodeURIComponent('Email: ' + email.value + '\n\nPoruka: ' + message.value)}`;
+    const mailtoLink = `mailto:egrijanje@pasivnidom.hr?subject=${encodeURIComponent(name.value + ' - upit s web stranice')}&body=${encodeURIComponent('Email: ' + email.value + '\n\nPoruka: ' + message.value)}`;
     
     // Create a temporary link element
     const link = document.createElement('a');
@@ -67,7 +67,7 @@ onMounted(() => {
                         <div class="contact-icon">
                             <img src="/assets/img/contact/2.png" alt="">
                         </div>
-                        <p> <a href="mailto:info@e-grijanje.hr">info@e-grijanje.hr</a></p>
+                        <p> <a href="mailto:egrijanje@pasivnidom.hr">egrijanje@pasivnidom.hr</a></p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-12">
