@@ -1,6 +1,5 @@
 <script setup>
-import { BreadCrumb, HeaderThree, VideoThree, VideoOne, CallToActionOne } from "@/components";
-
+import { BreadCrumb, HeaderThree, VideoThree, VideoOne, CallToActionOne, VanjskaUgradnja } from "@/components";
 import axios from "axios";
 import { onMounted, ref } from "vue";
 
@@ -205,6 +204,7 @@ const parts = ref([
       </div>
     </div>
   </div>
+  <VanjskaUgradnja />
   <VideoOne></VideoOne>
 </template>
 

@@ -1,5 +1,5 @@
 <script setup>
-import {HeaderOne, HeaderTop, HeroOne, ServicesFour, ProductDescriptionSection, OrderNowSection, VideoOne, ProjectProizvodnja } from '@/components';
+import {HeaderOne, HeaderTop, HeroOne, ServicesFour, ProductDescriptionSection, OrderNowSection, VideoOne, ProjectProizvodnja, VanjskaUgradnja } from '@/components';
 </script>
 
 <template>
@@ -16,6 +16,7 @@ import {HeaderOne, HeaderTop, HeroOne, ServicesFour, ProductDescriptionSection, 
         </div>
       </div>
     <VideoOne/>
+    <VanjskaUgradnja />
     <div style="background-color: #f5f5f5; padding: 50px 0;"></div>
     <OrderNowSection/>
 </template>

@@ -15,6 +15,7 @@ export { default as HeroThree } from "./heroarea/HeroThree.vue";
 export { default as AboutOne } from "./about/AboutOne.vue";
 export { default as AboutTwo } from "./about/AboutTwo.vue";
 export { default as AboutThree } from "./about/AboutThree.vue";
+export { default as VanjskaUgradnja } from "./about/VanjskaUgradnja.vue"
 
 export { default as ServicesOne } from "./services/ServicesOne.vue";
 export { default as ServicesTwo } from "./services/ServicesTwo.vue";
