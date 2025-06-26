@@ -16,13 +16,20 @@
         },
         {
             "id": "3",
+            "content": "Iznimno sam zadovoljan uslugom! Decki su brzo odradili sve u dogovorenom roku! Ocjena 5/⁠5! Iznenaden sam koliko brzo se kuca zagrije, usred zime i bez izolacije u kuci je lijepo i toplo, pogotovo za noge 🤩",
+            "reviewer_img": "assets/img/testimonial/3.jpg",
+            "reviewer_name": "Nikola",
+            "reviewer_designation": "Cvetkovec (Koprivnica)"
+        },
+        {
+            "id": "4",
             "content": "Iznenaden sam brzinom usluge i kvalitetom rada. Nakon promisljanja kako bi hladan pod u kupaonici postao topli i udoban, odlučio sam se za podno grijanje. Vrlo zadovoljan uslugom.",
             "reviewer_img": "assets/img/testimonial/3.jpg",
             "reviewer_name": "Daniel",
             "reviewer_designation": "Zagreb"
         },
         {
-            "id": "4",
+            "id": "5",
             "content": "Podno grijanje smo ugradili u cijelu kuću prije 5 godina i mogu reći da je to jedna od boljih odluka koje smo donijeli. Sustav radi besprijekorno – bez ikakvog održavanja i bez brige. Toplina je ravnomjerna i ugodna u svim prostorijama. Usluga je bila profesionalna i sve je izvedeno brzo i kvalitetno. Preporučujem svakome tko želi dugoročno i bezbrižno rješenje za grijanje doma!",
             "reviewer_img": "assets/img/testimonial/4.jpg",
             "reviewer_name": "Matija",

@@ -78,6 +78,20 @@ onMounted(() => {
                         </div>
                     </div>
                 </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="single-team-member">
+                        <div class="team-bg">
+                            <img src="/assets/img/egrijanje/team/team-02a.png" alt="">
+                        </div>
+                        <div class="team-hover-info">
+                            <div class="team-title">
+                                <h5>Ante</h5>
+                                <span>Vlasnik, Dalmacija</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-team-member">
                         <div class="team-bg">
@@ -113,6 +127,19 @@ onMounted(() => {
                             <div class="team-title">
                                 <h5>Dubravko</h5>
                                 <span>Proizvodnja i Montaza, Zagreb</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="single-team-member">
+                        <div class="team-bg">
+                            <img src="/assets/img/egrijanje/team/team-05a.png" alt="">
+                        </div>
+                        <div class="team-hover-info">
+                            <div class="team-title">
+                                <h5>Mateo</h5>
+                                <span>Monter, Dalmacija</span>
                             </div>
                         </div>
                     </div>

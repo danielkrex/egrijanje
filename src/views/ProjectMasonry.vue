@@ -33,7 +33,7 @@ onMounted(async () => {
                     <router-link :to="{name:'projekti-id', params: { id: project.id }}">
                         <div class="project-box">
                             <div class="project-img">
-                                <img :src="project.imgs[1].src" class="img-fluid mx-auto d-block" alt="" >
+                                <img :src="project.imgs[0].src" class="img-fluid mx-auto d-block" alt="" >
                             </div>
                             <div class="project-detail">
                                 <h4 class="mb-0">{{ project.title }}</h4>

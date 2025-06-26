@@ -64,7 +64,7 @@ const parts = ref([
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="blog-section section-padding">
 
@@ -125,12 +125,12 @@ const parts = ref([
         </table>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container">
     <div class="row">
       <div class="blog-section section-padding" style="padding-top: 0;">
-        <div class="section-title mb-50" style="text-align: center">
+        <div class="section-title mb-50 mt-100" style="text-align: center">
           <h3 style="width: 100%; font-weight: 600;">Preporučena snaga grijanja po prostoru</h3>
           <p style="width: 100%; max-width: 700px; margin: 0 auto; margin-top: 30px;">Snaga sklopa za napajanje određuje se prema toplinskim gubicima prostora. Dimenzije grijaćih traka ovise o željenoj specifičnoj emisiji topline (W/m²) grijanja i veličini prostorije. Preporučene vrijednosti su:</p>
         </div>
@@ -192,10 +192,13 @@ const parts = ref([
       </div>
     </div>
   </div>
+
+
+  <VanjskaUgradnja />
   <div class="blog-section bg-light">
     <div class="container">
       <div class="row">
-        <div class="section-title mb-50" style="text-align: center">
+        <div class="section-title mb-50 mt-100" style="text-align: center">
           <h3 style="width: 100%; font-weight: 600;">Kako ugraditi 12V podno grijanje – korak po korak</h3>
           <p style="width: 100%; max-width: 700px; margin: 0 auto; margin-top: 30px;">
             Pogledajte jednostavan video vodič kroz cijeli postupak ugradnje našeg 12V električnog podnog grijanja – od pripreme podloge do spajanja na napajanje i testiranja sustava.
@@ -204,7 +207,6 @@ const parts = ref([
       </div>
     </div>
   </div>
-  <VanjskaUgradnja />
   <VideoOne></VideoOne>
 </template>
 

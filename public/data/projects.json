@@ -397,6 +397,43 @@
         "cat": "Unutarnje grijanje",
         "opis": "Podno grijanje za wellness sobu u Mikulićima, Zagreb.",
         "text": "U wellness sobi smještenoj u Mikulićima, Zagrebu izveden je sustav podnog grijanja prilagođen specifičnim potrebama prostora za opuštanje i ugodu. Sustav omogućuje ravnomjernu i ugodnu toplinu, stvarajući optimalne uvjete za relaksaciju. Posebna pažnja posvećena je odabiru materijala i tehnologiji koja osigurava sigurnost i energetsku učinkovitost u zahtjevnom wellness okruženju."
+      },
+      {
+        "id": 15,
+        "imgs": [
+          {
+            "id": 1,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-1.jpg"
+          },
+          {
+            "id": 2,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-2.jpg"
+          },
+          {
+            "id": 3,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-3.jpg"
+          },
+          {
+            "id": 4,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-4.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-5.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-6.jpg"
+          },
+          {
+            "id": 5,
+            "src": "assets/img/egrijanje/projects/egrijanje-projects-15-7.jpg"
+          }
+        ],
+        "title": "Kuća Strmec, vanjska terasa",             
+        "cat": "Vanjsko grijanje",
+        "opis": "Podno grijanje na vanjskoj terasi obiteljske kuće u Strmcu.",
+        "text": "U kući u Strmcu izvedeno je podno grijanje na vanjskoj terasi, prilagođeno za vanjske uvjete i otpornost na vlagu i temperaturne razlike. Sustav omogućuje ugodno korištenje terase tijekom cijele godine te sprječava nakupljanje snijega i leda u zimskim mjesecima. Idealan je za proširenje funkcionalnog životnog prostora na otvorenom."
       }
     ]
   }
