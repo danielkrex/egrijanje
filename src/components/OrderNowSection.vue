@@ -39,7 +39,7 @@ onMounted(() => {
                     
                     <router-link :to="{name:'contact'}" class="theme-btn d-lg-inline-block">Zatraži ponudu</router-link>
                     <h4 class="mb-3 pt-50">Trebate još brži odgovor?</h4>
-                    <p>Nazovite nas na <a class="tel-link" href="tel:+385959152692">+385 95 915 2692</a> i rado ćemo vam pomoći.</p>
+                    <p>Nazovite nas na <a href="tel:+385994251266" class="tel-link">+385 99 425 1266</a> ili <a class="tel-link" href="tel:+385959152692">+385 95 915 2692</a> i rado ćemo vam pomoći.</p>
                 </div>
             </div>
         </div>        

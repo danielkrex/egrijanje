@@ -23,6 +23,9 @@
                             <a href="mailto:egrijanje@pasivnidom.hr">egrijanje@pasivnidom.hr</a>
                         </div>
                         <div class="company-email">
+                            <a href="tel:+385994251266" style="text-decoration: none;">+385 99 425 1266</a>
+                        </div>
+                        <div class="company-email">
                             <a href="tel:+385959152692" style="text-decoration: none;">+385 95 915 2692</a>
                         </div>
 

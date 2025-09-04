@@ -75,6 +75,7 @@ onMounted(() => {
                         <div class="contact-icon">
                             <img src="/assets/img/contact/3.png" alt="">
                         </div>
+                        <p> <a href="tel:+385994251266">+38599 4251 266</a></p>
                         <p> <a href="tel:+385959152692">+38595 915 2692</a></p>
                     </div>
                 </div>
